@@ -1,0 +1,80 @@
+html {
+    cursor: url('../misc/cursor.cur'), default;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #000;
+	font-family: monospace;
+}
+
+#main {
+	color: rgb(89, 0, 255);
+	position: absolute;
+  width: 100%;
+  bottom: 63%;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+#sub-text {
+  color: rgb(89, 0, 255);
+  position: absolute;
+  width: 100%;
+  bottom: 25%;
+  text-align: center;
+}
+
+#image {
+  position: absolute;
+  width: 100%;
+  bottom: 63%;
+  text-align: center;
+
+}
+
+.drifting-text {
+	position: absolute;
+  	display: none;
+  	color: rgb(89, 0, 255);
+	font-size: 15px;
+  	text-align: center;
+  	top: 40%;
+  	left: 50%;
+  		transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+
+#bar {
+	word-spacing: 20px;
+  	position: absolute;
+	width: 100%;
+	bottom: 40%; 
+	font-size: 15px;
+	text-align: center;
+	cursor: not-allowed;
+	color: #fff;
+	display: none;
+}
+
+.credits {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  color: rgb(89, 0, 255);
+  display: none;
+}
+
+a {
+    font-size: 1rem;
+    color:rgb(89, 0, 255);
+}

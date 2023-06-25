@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>cty4me.wtf  ツ</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="javascript/main.js"></script>
+  <script src="javascript/title.js"></script>
+  <script src="assets/javascripts/anti-paste.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+  <meta name="description" content="ツ" />
+  <meta name="keywords" content="cry4me.wtf"/>
+  <meta name="author" content="P3tya" />
+  <meta name="theme-color" content="#ff8ff2" />
+  <meta property="og:title" content="cry4me.wtf ツ" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="P3tyas website" />
+  <meta property="og:url" content="https://cry4me.wtf/" />
+  <meta property="og:image" content="stylesheets/image.png" />
+  <link rel="shortcut icon" type="image/png" href="stylesheets/image.png"/>
+  <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+	<style> 
+		h1 { 
+			color: red; 		
+		} 
+		
+		h2 {
+		color:rgb(0, 204, 255);
+		font-weight:bold;
+		}
+	</style> 
+	<script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> 
+	</script> 
+
+	<script> 
+		/* Add "https://api.ipify.org?format=json" This method uses ipify.org api to get the clients IP Address. 
+		This method is completely free and no limitations of use. */ 
+
+		$.getJSON("https://api.ipify.org?format=json", 
+										function(data) { 
+
+			// userip element is where the IP will be displayed
+			$("#userip").html(data.ip); 
+		}) 
+	</script> 
+</head> 
+
+<body> 
+
+	<center> 
+    <div class="main center">
+      <p>
+          <center>
+          <!-- <span style="background-color: #589adb"> -->
+            <br>
+            <br>
+          <a target="_blank"><i>your ip is: </i></a>
+          <br>
+          <br>
+          <br>
+          <a><i><h2 id="userip"></h2></i></a>
+          <br>
+          <br>
+          <br>
+          <a></a>
+          <br>
+          <!-- </span> -->
+          </center>
+      <p>
+  </div>
+  <div class="controls">
+    <center>
+    <a href="index.html">home</a>
+    </center>
+</div>
+
+		<!--<h2 id="userip"></h2> -->
+
+	</center> 
+</body> 
+
+</html> 

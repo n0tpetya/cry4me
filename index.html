@@ -1,0 +1,95 @@
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cry4me.wtf ツ</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/title.js"></script>
+    <script src="assets/javascripts/anti-paste.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <meta name="description" content="ツ" />
+    <meta name="keywords" content="cry4me.wtf"/>
+    <meta name="author" content="P3tya" />
+    <meta name="theme-color" content="#ff8ff2" />
+    <meta property="og:title" content="cry4me.wtf ツ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="P3tyas website" />
+    <meta property="og:url" content="https://cry4me.wtf/" />
+    <meta property="og:image" content="stylesheets/image.png" />
+    <link rel="shortcut icon" type="image/png" href="stylesheets/image.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+</head>
+<body oncontextmenu="return false">
+
+
+    <audio autoplay id="bgMusic"> <source src="assets/misc/song.ogg" type="audio/ogg"> Your browser does not support the audio element.</audio>
+    <script>
+        document.getElementById("bgMusic").autoplay;
+        var bgm = document.getElementById("bgMusic");
+    bgm.volume = 0.3;
+    </script>
+
+   <p id="main"></p>
+
+    <!-- The script itself, loaded AFTER your root element. -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+  
+    <!--<div id="image">
+      <img class="out" src="stylesheets/Untitled.png" height="350" width="400"/>
+    </div>-->
+
+ <script>
+  new TypeIt("#main", {
+  speed: 50,
+  waitUntilVisible: true,
+  cursor: false,
+ 
+})
+  .type('welcome, to cry4me.wtf')
+  .pause(500)
+  .break()
+  .break()
+  .type('<em>- p3tya</em>')
+  .pause(5000)
+  .delete(49)
+  .go();
+</script>
+
+<div class="sub-main-text">
+   <p id="sub-text"></p>
+ </div>
+
+
+
+<div style="cursor: pointer;">
+  <p class="drifting-text" onclick="window.location.href='index';">cry4me.wtf</p>
+</div>
+
+   <div id="bar">
+     <a href="links.html" class="out">links</a> | <a href="https://doxbin.com/"target="_blank">funny</a> 
+    </div> 
+
+
+<div id="credits" style="cursor: pointer;" onclick="window.location.href='https://www.youtube.com/watch?v=DNb8B0RoEQg'">
+  <p class="credits">ツ</p>
+</div>
+<script>
+  new TypeIt("#sub-text", {
+  speed: 150,
+  waitUntilVisible: true,
+  cursor: false,
+ 
+})
+  .pause(3500)
+  .type('<em>Привет ツ</em>')
+  .pause(500)
+  .delete(33)
+  .go();
+</script>
+
+
+</body>
+</html>
